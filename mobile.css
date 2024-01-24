@@ -1,0 +1,342 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+nav span {
+  color: salmon;
+}
+nav {
+  margin-left: 32px;
+  margin-top: 24px;
+  font-size: 12px;
+}
+/* start header */
+header {
+  margin: 32px;
+  position: relative;
+  z-index: 999;
+}
+.header-side-1 {
+  margin-bottom: 64px;
+}
+.header-side-1 .title {
+  margin-bottom: 24px;
+}
+.header-side-1 p{
+  font-size: 14px;
+}
+.title span {
+  color: salmon;
+}
+
+.header-side-2 img {
+  width: 90%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 10%;
+  margin-left: 40px;
+}
+/* end  */
+
+/* section about us */
+
+.about-us-image {
+  background-color: salmon;
+  width: 100%;
+  height: 30%;
+  margin-bottom: 64px;
+  text-align: center;
+}
+
+.img-aboutUs {
+  max-width: 80%;
+  height: auto;
+  display: inline-block;
+  margin-top: 70px;
+  margin-bottom: 64px;
+}
+
+.tag {
+  background-color: rgb(226, 223, 223);
+  width: 80px;
+  text-align: center;
+  padding: 4px;
+  border-radius: 8px;
+  font-size: 12px;
+  margin: 16px;
+}
+
+.about-us-text {
+  margin: 32px;
+}
+.about-us-text h3 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+.about-us-text p {
+  color: grey;
+}
+.custome-btn {
+  margin-top: 32px;
+  display: block;
+  background-color: salmon;
+  width: 100px;
+  padding: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+.custome-btn:hover {
+  background-color: rgb(212, 110, 98);
+}
+
+/* end */
+
+/* start category */
+.category-container {
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 64px;
+}
+.category-container h2 {
+  margin-bottom: 56px;
+}
+.category-item {
+  width: 100%;
+  height: 50%;
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+.category-sub-item {
+  width: 130px;
+  height: 180px;
+  background-color: rgb(245, 237, 237);
+  border-radius: 8px;
+}
+.category-sub-item:hover {
+  background-color: rgb(206, 195, 195);
+}
+.category-sub-item img {
+  max-width: 56px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  background-color: white;
+  padding: 4px;
+  border-radius: 100%;
+}
+.category-sub-item p {
+  margin-top: 4px;
+  font-size: 12px;
+  color: grey;
+}
+.category-sub-item h3{
+font-size: 14px;
+}
+
+/* end category */
+/* start card */
+.menu-container {
+  margin-bottom: 100px;
+}
+.menu-container h2 {
+  text-align: center;
+}
+
+.card-container {
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Tambahkan gaya untuk label most order */
+.most-order {
+  position: relative;
+}
+
+.most-order-label {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: linear-gradient(to bottom, #ff8c69, #ff6347);
+  color: white;
+  padding: 4px;
+  border-radius: 4px;
+  font-size: 12px;
+  z-index: 1; 
+}
+
+.card-item {
+  border: 1px solid rgb(194, 193, 193);
+  border-radius: 8px;
+  width: 250px;
+  height: 350px;
+  padding: 16px;
+  margin-bottom: 24px;
+}
+.card-item img {
+  max-width: 100%;
+  border-radius: 8px;
+
+  object-fit: cover;
+}
+.card-title {
+  font-size: 15px;
+  margin: 8px;
+}
+.card-review {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-review img {
+  width: 100px;
+}
+.card-review p {
+  color: salmon;
+  font-size: 13px;
+}
+.card-price {
+  font-size: 15px;
+  padding-top: 8px;
+  padding-left: 8px;
+}
+.card-item:hover {
+  background-color: rgb(255, 238, 236);
+}
+.btn-arrow {
+  text-align: center;
+}
+.btn-arrow .forward {
+  background-color: salmon;
+  padding: 4px;
+  border-radius: 4px;
+  color: white;
+}
+
+/* end */
+
+/* testimoni card */
+
+.testimoni-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.testimoni-container h2 {
+  margin-bottom: 24px;
+  text-align: center;
+}
+.testimoni-card {
+  border: 1px solid grey;
+  width: 250px;
+  height: 300px;
+  padding: 24px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+}
+.customer-profile {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+  align-items: center;
+}
+
+.customer-profile img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.testimoni-text {
+  font-size: 12px;
+}
+/* end */
+
+/* start footer */
+footer {
+  margin-top: 150px;
+}
+.custome-footer {
+  padding: 32px;
+}
+.side-1 {
+  margin-bottom: 16px;
+}
+.side-1 h1 {
+  font-size: 25px;
+  margin-bottom: 8px;
+}
+.side-1 span {
+  color: salmon;
+}
+.side-1 p {
+  color: grey;
+}
+
+.side-2 {
+  margin-bottom: 24px;
+}
+
+.end {
+  background-color: salmon;
+  text-align: center;
+  padding: 8px;
+  color: white;
+}
+
+/* end */
+
+footer p {
+  font-size: 13px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+
+/* add animation */
+
+.hiddenX {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.hiddenY {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(-100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+
+.square:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.square:nth-child(3) {
+  transition-delay: 400ms;
+}
+
+.square:nth-child(4) {
+  transition-delay: 600ms;
+}

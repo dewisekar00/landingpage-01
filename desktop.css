@@ -1,0 +1,70 @@
+@media screen and (min-width: 768px) {
+ nav{
+  margin-left:130px;
+ }
+
+  section{
+    height: 80vh;
+  }
+ header {
+    margin-bottom: 64px;
+    display: flex;
+    justify-content: space-between;
+   
+    margin-left: 64px;
+  }
+  .header-side-1 {
+    margin-left: 64px;
+    width: 400px;
+    margin-top: 60px;
+  }
+
+  .header-side-2 img {
+    margin-top: 100px;
+    width: 400px;
+    margin-right: 64px;
+  }
+
+  .aboutUs-container {
+    margin: 110px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .about-us-image {
+    width: 400px;
+    height: 300px;
+    margin-right: 64px;
+  }
+  .about-us-image img {
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-left: 64px;
+  }
+
+  .about-us-text {
+    width: 300px;
+  }
+  .card-container {
+    display: flex;
+    gap: 16px;
+  }
+  .testimoni-card-container {
+    display: flex;
+    margin: 32px;
+    gap: 32px;
+    justify-content: center;
+  }
+
+  .custome-footer {
+    display: flex;
+    margin: 32px;
+    gap: 200px;
+  }
+  .side-1 {
+    width: 200px;
+  }
+  .testimoni-card-container{
+    display: flex;
+  }
+}
